@@ -1,15 +1,15 @@
 /* GLOBAL STYLES */
 body {
   background: #333;
-  color: #fff;
-  font-family: monospace;
+  color: #75B09C;
+  font-family: Montserrat;
   padding-top: 5em;
   display: flex;
   justify-content: center;
 }
 
 /* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
+.helloworld h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
