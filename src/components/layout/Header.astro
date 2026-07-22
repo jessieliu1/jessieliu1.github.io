@@ -1,8 +1,9 @@
 ---
 import ThemeToggle from "../ThemeToggle.astro";
-import { menuLinks } from "@/site-config";
+import { getVisibleMenuLinks } from "@/utils";
 
 const url = new URL(Astro.request.url);
+const menuLinks = await getVisibleMenuLinks();
 ---
 
 <header id="main-header" class="group relative mb-[3.125rem] flex items-center">
